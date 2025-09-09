@@ -11,7 +11,7 @@
     /* Estilos generales */
     body {
       font-family: 'Arial', sans-serif;
-      background: #fce4ec;
+      background: linear-gradient(to bottom, #fce4ec, #f8bbd0);
       color: #880e4f;
       text-align: center;
       padding: 30px;
@@ -26,6 +26,7 @@
       margin-bottom: 20px;
       opacity: 0;
       animation: aparecer 2s forwards;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
     }
 
     /* Párrafos */
@@ -42,6 +43,8 @@
       width: 100%;
       max-width: 400px;
       height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
       opacity: 0;
       animation: aparecer 2s forwards 1s; /* aparece 1s después del título */
     }
